@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Coin from './Coin'
-// import Logo from './Logo'
 
 class CoinContainer extends Component {
   state = {
@@ -35,7 +34,6 @@ class CoinContainer extends Component {
                   price={currency.quotes.USD.price}
                   id={currency.id}
                 />
-                {/* <Logo /> */}
               </>
             )
           })}

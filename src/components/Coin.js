@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import Logo from './Logo'
 class Coin extends Component {
   render() {
     return (
@@ -8,7 +8,7 @@ class Coin extends Component {
           <h1 className="name">{this.props.name}</h1>
           <h2>{this.props.symbol}</h2>
           <h2>{this.props.price}</h2>
-          <h3>{this.props.id}</h3>
+          <Logo id={this.props.id} />
         </div>
       </section>
     )
