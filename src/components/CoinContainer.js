@@ -24,7 +24,7 @@ class CoinContainer extends Component {
   render() {
     return (
       <>
-        <section>
+        <section className="coinContainer">
           {this.state.currencies.map(currency => {
             return (
               <>
