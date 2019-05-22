@@ -30,9 +30,9 @@ class CoinContainer extends Component {
               <>
                 <Coin
                   name={currency.name}
+                  id={currency.id}
                   symbol={currency.symbol}
                   price={currency.quotes.USD.price}
-                  id={currency.id}
                 />
               </>
             )

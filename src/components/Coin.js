@@ -6,9 +6,9 @@ class Coin extends Component {
       <section className="coin">
         <div className="">
           <h1 className="name">{this.props.name}</h1>
-          <h2>{this.props.symbol}</h2>
-          <h2>{this.props.price}</h2>
           <Logo id={this.props.id} />
+          <h2>{this.props.symbol}</h2>
+          <h2>${this.props.price}</h2>
         </div>
       </section>
     )
